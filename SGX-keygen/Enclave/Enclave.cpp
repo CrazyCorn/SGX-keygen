@@ -297,7 +297,7 @@ static int mbedtls_crypto_ecdsa()
     mbedtls_printf( " ok\nECDSA PASSED\n" );
 
     /*
-     * Export public key
+     * 导出公钥（使用mbedtls_ecp_point_write_binary函数）
      */
     mbedtls_printf("  . Exporting public key...");
 
